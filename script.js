@@ -1,3 +1,11 @@
+// Smooth scroll
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
+// Carousel
 const images = document.querySelectorAll(".carousel-images img");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
